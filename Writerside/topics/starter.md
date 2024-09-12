@@ -4,6 +4,8 @@ In this tutorial, we are going to cover Amazon SQS and Lambda using a real world
 We are going to create a service that will be sending a Welcome email to users everytime a user registers 
 to the System.
 
+Find the code here [link](https://github.com/joe6276/AWS_SQS_AND_LAMBDA/tree/master/SQS)
+
 ![SQS](SQS.jpg)
 
 

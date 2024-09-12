@@ -166,7 +166,7 @@ We need to add:
 
 The reason we need to upload the code is that we are using a third-party dependency (nodemailer)
 and the code won't work if we don't have the package.
-
+Here is a link to the Zip file [Link](https://github.com/joe6276/AWS_SQS_AND_LAMBDA/tree/master/SQS/upload)
 We are going to zip a file with the JavaScript code and node_modules folder with nodemailer package.
 <img alt="upload" src="image_14.png"/>
 
