@@ -1,0 +1,26 @@
+{
+  "name": "sqs1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/server.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.650.0",
+    "concurrently": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^4.17.21"
+  }
+}
