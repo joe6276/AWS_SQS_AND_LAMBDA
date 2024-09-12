@@ -13,9 +13,9 @@ Our Lambda function will be triggered everytime a new message is pushed to the q
 ## Create a Lambda Function
 
 In you AWS Console search for Lambda then > Create function
-![Create Function](image_9.png)
-![Role](image_10.png)
-![SQS Queue](image_11.png)
+<img alt="Create" src="image_9.png"/>
+<img alt="Role" src="image_10.png"/>
+<img alt="SQS Queue" src="image_11.png"/>
 ### Explanation
 
 - Author from scratch: Allows you to create a new Lambda function with a custom code template from 
@@ -168,10 +168,10 @@ The reason we need to upload the code is that we are using a third-party depende
 and the code won't work if we don't have the package.
 
 We are going to zip a file with the JavaScript code and node_modules folder with nodemailer package.
-![upload](image_14.png)
+<img alt="upload" src="image_14.png"/>
 
 We should now see the file and node_modules folder:
-![Lambda](image_15.png)
+<img alt="Lambda" src="image_15.png"/>
 
 Now lets test
 

@@ -33,7 +33,7 @@ Choose the Standard, give a name then create the Queue
   ![Queue](image.png)
 
 Now you should see:
-![Queue Created](image_1.png)
+<img alt="Queue Created" src="image_1.png"/>
 
 copy the URL
 ## Create Security Credentials
@@ -43,16 +43,18 @@ a _secretAccessKey_ which is basically a password for the user
 To get these:
 
 1. Click on your profile > Select "Security Credentials"
-![profile](image_2.png)
+   <img alt="profile" src="image_2.png"/>
 
 2. Find access keys then > create access key
-   ![Access Keys](image_3.png)
+   <img alt="Access Keys" src="image_3.png"/>
 then:
 
-![CLI](image_4.png)
+<img alt="CLI" src="image_4.png"/>
 3. Retrieve Keys
-![Retrieve Keys](image_5.png)
+
+<img alt="Retrieve" src="image_5.png"/>
 4. Save these in your environment variables (Node JS), also Add the URL.
+
 ![ENV](image_7.png)
 ## Node App
 
